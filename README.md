@@ -19,6 +19,11 @@
 ![Delta Lake](https://img.shields.io/badge/Delta_Lake-003366?logo=delta&logoColor=white)
 ![Debezium](https://img.shields.io/badge/Debezium-91D443?logoColor=black)
 ![Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?logo=apacheairflow&logoColor=white)
+![Apache Flink](https://img.shields.io/badge/Apache_Flink-E6526F?logo=apacheflink&logoColor=white)
+![Feast](https://img.shields.io/badge/Feast-FF6F00?logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?logo=opentofu&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)
@@ -33,6 +38,7 @@
 <!-- PROJECTS:START -->
 | Project | What it answers | Stack | Live |
 |---|---|---|---|
+| [**vic-heat-health-sentinel**](https://github.com/LuciferDataEngineer/vic-heat-health-sentinel) | Which Victorian areas face dangerous heat in the next 16 days, who lives there, and where should councils prepare cooling centres and outreach? | Redpanda · PyFlink · Delta Lake · Feast · scikit-learn + MLflow · Evidently · dbt-duckdb · Dagster · OpenTofu · Kubernetes (kind) | [Live dashboard](https://luciferdataengineer.github.io/vic-heat-health-sentinel/) |
 | [**fuel-shock-radar**](https://github.com/LuciferDataEngineer/fuel-shock-radar) | Australia's 2026 fuel price shock: which day is cheapest to fill up, are retail margins fair, and how much more do regional drivers pay? | Postgres · Debezium CDC · Redpanda · PySpark Structured Streaming · Delta Lake (MERGE/SCD2) · Airflow Datasets · OpenLineage/Marquez · Great Expectations · DuckDB | [Live dashboard](https://luciferdataengineer.github.io/fuel-shock-radar/) |
 | [**aus-hazard-stream**](https://github.com/LuciferDataEngineer/aus-hazard-stream) | Is the 2026 Gippsland earthquake swarm unusual, and where do quakes and bushfire hotspots threaten people and infrastructure? (near real-time) | Redpanda/Kafka · JSON Schema registry · Apache Iceberg · H3 + DuckDB spatial · dbt-duckdb · Dagster · Soda · MapLibre | [Live map](https://luciferdataengineer.github.io/aus-hazard-stream/) |
 | [**nem-grid-pulse**](https://github.com/LuciferDataEngineer/nem-grid-pulse) | Will Australia's AI data-centre boom strain the electricity grid? Prices, negative-price hours, renewables and load scenarios across the NEM | Python · dbt-duckdb · Dagster · data contracts · ECharts · GitHub Actions | [Dashboard](https://luciferdataengineer.github.io/nem-grid-pulse/) |
