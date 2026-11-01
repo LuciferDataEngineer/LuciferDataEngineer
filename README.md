@@ -26,6 +26,7 @@
 ![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?logo=opentofu&logoColor=black)
 ![pgvector](https://img.shields.io/badge/pgvector-336791?logo=postgresql&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face_(sentence--transformers)-FFD21E?logo=huggingface&logoColor=black)
+![ECharts](https://img.shields.io/badge/Apache_ECharts-AA344D?logo=apacheecharts&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)
@@ -40,6 +41,7 @@
 <!-- PROJECTS:START -->
 | Project | What it answers | Stack | Live |
 |---|---|---|---|
+| [**supply-chain-control-tower**](https://github.com/LuciferDataEngineer/supply-chain-control-tower) | Logistics control tower on 100k real e-commerce orders: on-time delivery, late lanes, freight burden, seller delays and review impact, with recommendations | DuckDB · dbt · Dagster · ECharts · GitHub Actions | [Live dashboard](https://luciferdataengineer.github.io/supply-chain-control-tower/) |
 | [**rba-rate-shock-copilot**](https://github.com/LuciferDataEngineer/rba-rate-shock-copilot) | An AI copilot answering questions about the RBA's 2026 cash-rate rises and what they cost mortgage holders, with RAG over Reserve Bank statements | Postgres + pgvector · sentence-transformers embeddings · RAG · MetricFlow semantic layer · dbt-duckdb · Dagster · OpenTofu | [Live dashboard](https://luciferdataengineer.github.io/rba-rate-shock-copilot/) |
 | [**vic-heat-health-sentinel**](https://github.com/LuciferDataEngineer/vic-heat-health-sentinel) | Which Victorian areas face dangerous heat in the next 16 days, who lives there, and where should councils prepare cooling centres and outreach? | Redpanda · PyFlink · Delta Lake · Feast · scikit-learn + MLflow · Evidently · dbt-duckdb · Dagster · OpenTofu · Kubernetes (kind) | [Live dashboard](https://luciferdataengineer.github.io/vic-heat-health-sentinel/) |
 | [**fuel-shock-radar**](https://github.com/LuciferDataEngineer/fuel-shock-radar) | Australia's 2026 fuel price shock: which day is cheapest to fill up, are retail margins fair, and how much more do regional drivers pay? | Postgres · Debezium CDC · Redpanda · PySpark Structured Streaming · Delta Lake (MERGE/SCD2) · Airflow Datasets · OpenLineage/Marquez · Great Expectations · DuckDB | [Live dashboard](https://luciferdataengineer.github.io/fuel-shock-radar/) |
