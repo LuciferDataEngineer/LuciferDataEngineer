@@ -28,6 +28,8 @@
 ![pgvector](https://img.shields.io/badge/pgvector-336791?logo=postgresql&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face_(sentence--transformers)-FFD21E?logo=huggingface&logoColor=black)
 ![ECharts](https://img.shields.io/badge/Apache_ECharts-AA344D?logo=apacheecharts&logoColor=white)
+![Trino](https://img.shields.io/badge/Trino-DD00A1?logo=trino&logoColor=white)
+![Great Expectations](https://img.shields.io/badge/Great_Expectations-FF6310?logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)
@@ -42,6 +44,7 @@
 <!-- PROJECTS:START -->
 | Project | What it answers | Stack | Live |
 |---|---|---|---|
+| [**ai-grid-pressure**](https://github.com/LuciferDataEngineer/ai-grid-pressure) | Is the AI data-centre boom straining Australia's grid? Where NEM demand peaks, price spikes and household power bills are showing stress | Iceberg · Trino · OpenLineage/Marquez · Great Expectations · dbt-duckdb · Dagster | [Live dashboard](https://luciferdataengineer.github.io/ai-grid-pressure/) |
 | [**housing-slump-radar**](https://github.com/LuciferDataEngineer/housing-slump-radar) | Australia's 2026 housing slump: where prices and approvals are softening, how repayments jumped after the cash rate hit 4.85%, and which Victorian suburbs fell hardest | ClickHouse · Redpanda · data contracts · dbt-duckdb · Dagster · ECharts · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/housing-slump-radar/) |
 | [**supply-chain-control-tower**](https://github.com/LuciferDataEngineer/supply-chain-control-tower) | Logistics control tower on 100k real e-commerce orders: on-time delivery, late lanes, freight burden, seller delays and review impact, with recommendations | DuckDB · dbt · Dagster · ECharts · GitHub Actions | [Live dashboard](https://luciferdataengineer.github.io/supply-chain-control-tower/) |
 | [**rba-rate-shock-copilot**](https://github.com/LuciferDataEngineer/rba-rate-shock-copilot) | An AI copilot answering questions about the RBA's 2026 cash-rate rises and what they cost mortgage holders, with RAG over Reserve Bank statements | Postgres + pgvector · sentence-transformers embeddings · RAG · MetricFlow semantic layer · dbt-duckdb · Dagster · OpenTofu | [Live dashboard](https://luciferdataengineer.github.io/rba-rate-shock-copilot/) |
