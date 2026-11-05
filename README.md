@@ -10,6 +10,7 @@
 ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=white)
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?logo=duckdb&logoColor=black)
+![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?logo=clickhouse&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![Dagster](https://img.shields.io/badge/Dagster-4F43DD?logo=dagster&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
@@ -41,6 +42,7 @@
 <!-- PROJECTS:START -->
 | Project | What it answers | Stack | Live |
 |---|---|---|---|
+| [**housing-slump-radar**](https://github.com/LuciferDataEngineer/housing-slump-radar) | Australia's 2026 housing slump: where prices and approvals are softening, how repayments jumped after the cash rate hit 4.85%, and which Victorian suburbs fell hardest | ClickHouse · Redpanda · data contracts · dbt-duckdb · Dagster · ECharts · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/housing-slump-radar/) |
 | [**supply-chain-control-tower**](https://github.com/LuciferDataEngineer/supply-chain-control-tower) | Logistics control tower on 100k real e-commerce orders: on-time delivery, late lanes, freight burden, seller delays and review impact, with recommendations | DuckDB · dbt · Dagster · ECharts · GitHub Actions | [Live dashboard](https://luciferdataengineer.github.io/supply-chain-control-tower/) |
 | [**rba-rate-shock-copilot**](https://github.com/LuciferDataEngineer/rba-rate-shock-copilot) | An AI copilot answering questions about the RBA's 2026 cash-rate rises and what they cost mortgage holders, with RAG over Reserve Bank statements | Postgres + pgvector · sentence-transformers embeddings · RAG · MetricFlow semantic layer · dbt-duckdb · Dagster · OpenTofu | [Live dashboard](https://luciferdataengineer.github.io/rba-rate-shock-copilot/) |
 | [**vic-heat-health-sentinel**](https://github.com/LuciferDataEngineer/vic-heat-health-sentinel) | Which Victorian areas face dangerous heat in the next 16 days, who lives there, and where should councils prepare cooling centres and outreach? | Redpanda · PyFlink · Delta Lake · Feast · scikit-learn + MLflow · Evidently · dbt-duckdb · Dagster · OpenTofu · Kubernetes (kind) | [Live dashboard](https://luciferdataengineer.github.io/vic-heat-health-sentinel/) |
