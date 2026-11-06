@@ -10,10 +10,12 @@
 ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=white)
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?logo=duckdb&logoColor=black)
+![DuckDB VSS](https://img.shields.io/badge/DuckDB_VSS-FFF000?logo=duckdb&logoColor=black)
 ![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?logo=clickhouse&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![Dagster](https://img.shields.io/badge/Dagster-4F43DD?logo=dagster&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
+![Polars](https://img.shields.io/badge/Polars-CD792C?logo=polars&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka%20%2F%20Redpanda-231F20?logo=apachekafka&logoColor=white)
 ![Apache Iceberg](https://img.shields.io/badge/Apache_Iceberg-2B6CB0?logo=apache&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?logo=apachespark&logoColor=white)
@@ -44,6 +46,7 @@
 <!-- PROJECTS:START -->
 | Project | What it answers | Stack | Live |
 |---|---|---|---|
+| [**grocery-shock-agent**](https://github.com/LuciferDataEngineer/grocery-shock-agent) | Which grocery lines are driving price pressure, and how could basket swaps change it? | Polars · dbt-duckdb · Dagster · Great Expectations · DuckDB VSS HNSW · 128-d feature hashing · deterministic ReAct tool-use agent · ECharts | [Live dashboard](https://luciferdataengineer.github.io/grocery-shock-agent/) |
 | [**ai-grid-pressure**](https://github.com/LuciferDataEngineer/ai-grid-pressure) | Is the AI data-centre boom straining Australia's grid? Where NEM demand peaks, price spikes and household power bills are showing stress | Iceberg · Trino · OpenLineage/Marquez · Great Expectations · dbt-duckdb · Dagster | [Live dashboard](https://luciferdataengineer.github.io/ai-grid-pressure/) |
 | [**housing-slump-radar**](https://github.com/LuciferDataEngineer/housing-slump-radar) | Australia's 2026 housing slump: where prices and approvals are softening, how repayments jumped after the cash rate hit 4.85%, and which Victorian suburbs fell hardest | ClickHouse · Redpanda · data contracts · dbt-duckdb · Dagster · ECharts · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/housing-slump-radar/) |
 | [**supply-chain-control-tower**](https://github.com/LuciferDataEngineer/supply-chain-control-tower) | Logistics control tower on 100k real e-commerce orders: on-time delivery, late lanes, freight burden, seller delays and review impact, with recommendations | DuckDB · dbt · Dagster · ECharts · GitHub Actions | [Live dashboard](https://luciferdataengineer.github.io/supply-chain-control-tower/) |
