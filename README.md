@@ -9,6 +9,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=white)
+![MetricFlow](https://img.shields.io/badge/MetricFlow-7C3AED)
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?logo=duckdb&logoColor=black)
 ![DuckDB VSS](https://img.shields.io/badge/DuckDB_VSS-FFF000?logo=duckdb&logoColor=black)
 ![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?logo=clickhouse&logoColor=black)
@@ -46,6 +47,7 @@
 <!-- PROJECTS:START -->
 | Project | What it answers | Stack | Live |
 |---|---|---|---|
+| [**elective-wait-metrics**](https://github.com/LuciferDataEngineer/elective-wait-metrics) | Where are elective surgery patients missing recommended waits across Australia? | AIHW snapshots · Polars · dbt-duckdb · MetricFlow semantic layer saved queries · Dagster · Great Expectations Data Docs · static five-tab dashboard | [Live dashboard](https://luciferdataengineer.github.io/elective-wait-metrics/) |
 | [**grocery-shock-agent**](https://github.com/LuciferDataEngineer/grocery-shock-agent) | Which grocery lines are driving price pressure, and how could basket swaps change it? | Polars · dbt-duckdb · Dagster · Great Expectations · DuckDB VSS HNSW · 128-d feature hashing · deterministic ReAct tool-use agent · ECharts | [Live dashboard](https://luciferdataengineer.github.io/grocery-shock-agent/) |
 | [**ai-grid-pressure**](https://github.com/LuciferDataEngineer/ai-grid-pressure) | Is the AI data-centre boom straining Australia's grid? Where NEM demand peaks, price spikes and household power bills are showing stress | Iceberg · Trino · OpenLineage/Marquez · Great Expectations · dbt-duckdb · Dagster | [Live dashboard](https://luciferdataengineer.github.io/ai-grid-pressure/) |
 | [**housing-slump-radar**](https://github.com/LuciferDataEngineer/housing-slump-radar) | Australia's 2026 housing slump: where prices and approvals are softening, how repayments jumped after the cash rate hit 4.85%, and which Victorian suburbs fell hardest | ClickHouse · Redpanda · data contracts · dbt-duckdb · Dagster · ECharts · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/housing-slump-radar/) |
