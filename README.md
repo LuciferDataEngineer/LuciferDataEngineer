@@ -26,8 +26,11 @@
 ![Apache Flink](https://img.shields.io/badge/Apache_Flink-E6526F?logo=apacheflink&logoColor=white)
 ![Feast](https://img.shields.io/badge/Feast-FF6F00?logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-1B9AD7?logoColor=white)
+![Evidently](https://img.shields.io/badge/Evidently-ED0400?logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 ![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?logo=opentofu&logoColor=black)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-336791?logo=postgresql&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face_(sentence--transformers)-FFD21E?logo=huggingface&logoColor=black)
 ![ECharts](https://img.shields.io/badge/Apache_ECharts-AA344D?logo=apacheecharts&logoColor=white)
@@ -47,6 +50,7 @@
 <!-- PROJECTS:START -->
 | Project | What it answers | Stack | Live |
 |---|---|---|---|
+| [**jobs-risk-radar**](https://github.com/LuciferDataEngineer/jobs-risk-radar) | Which Australian regions are seeing unemployment rise, and where should support be targeted? | Polars · dbt-duckdb · Dagster · Feast (DuckDB offline/SQLite online, point-in-time retrieval) · LightGBM with MLflow · Evidently · kind/Kubernetes · Terraform Docker provider | [Live dashboard](https://luciferdataengineer.github.io/jobs-risk-radar/) |
 | [**elective-wait-metrics**](https://github.com/LuciferDataEngineer/elective-wait-metrics) | Where are elective surgery patients missing recommended waits across Australia? | AIHW snapshots · Polars · dbt-duckdb · MetricFlow semantic layer saved queries · Dagster · Great Expectations Data Docs · static five-tab dashboard | [Live dashboard](https://luciferdataengineer.github.io/elective-wait-metrics/) |
 | [**grocery-shock-agent**](https://github.com/LuciferDataEngineer/grocery-shock-agent) | Which grocery lines are driving price pressure, and how could basket swaps change it? | Polars · dbt-duckdb · Dagster · Great Expectations · DuckDB VSS HNSW · 128-d feature hashing · deterministic ReAct tool-use agent · ECharts | [Live dashboard](https://luciferdataengineer.github.io/grocery-shock-agent/) |
 | [**ai-grid-pressure**](https://github.com/LuciferDataEngineer/ai-grid-pressure) | Is the AI data-centre boom straining Australia's grid? Where NEM demand peaks, price spikes and household power bills are showing stress | Iceberg · Trino · OpenLineage/Marquez · Great Expectations · dbt-duckdb · Dagster | [Live dashboard](https://luciferdataengineer.github.io/ai-grid-pressure/) |
