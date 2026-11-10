@@ -19,6 +19,7 @@
 ![Polars](https://img.shields.io/badge/Polars-CD792C?logo=polars&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka%20%2F%20Redpanda-231F20?logo=apachekafka&logoColor=white)
 ![Apache Iceberg](https://img.shields.io/badge/Apache_Iceberg-2B6CB0?logo=apache&logoColor=white)
+![MinIO](https://img.shields.io/badge/MinIO-C72E49?logo=minio&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?logo=apachespark&logoColor=white)
 ![Delta Lake](https://img.shields.io/badge/Delta_Lake-003366?logo=delta&logoColor=white)
 ![Debezium](https://img.shields.io/badge/Debezium-91D443?logoColor=black)
@@ -37,6 +38,7 @@
 ![ECharts](https://img.shields.io/badge/Apache_ECharts-AA344D?logo=apacheecharts&logoColor=white)
 ![Trino](https://img.shields.io/badge/Trino-DD00A1?logo=trino&logoColor=white)
 ![Great Expectations](https://img.shields.io/badge/Great_Expectations-FF6310?logoColor=white)
+![Pandera](https://img.shields.io/badge/Pandera-82B428?logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)
@@ -51,6 +53,7 @@
 <!-- PROJECTS:START -->
 | Project | What it answers | Stack | Live |
 |---|---|---|---|
+| [**home-battery-payback**](https://github.com/LuciferDataEngineer/home-battery-payback) | Where is Australia's home-battery rebate landing, and where does a battery pay back from real wholesale price swings? | PyFlink 2.1 SQL (event-time windows, watermarks) · Apache Iceberg (REST catalog + MinIO + Trino merge-on-read) · DuckDB marts · Dagster asset checks · OpenLineage · Pandera contracts · kind/Kubernetes Job · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/home-battery-payback/) |
 | [**aged-care-bed-block**](https://github.com/LuciferDataEngineer/aged-care-bed-block) | CDC lakehouse tracking Australia's residential aged care place shortfall (40,939 places short of a 78-per-1,000 benchmark; only 794 places added last year vs ~10,600 needed). | Postgres 16 · Debezium Server · Redpanda · PySpark Structured Streaming · Delta Lake MERGE + SCD2 · OpenLineage · data contracts · DuckDB · Terraform · GitHub Actions | [Live dashboard](https://luciferdataengineer.github.io/aged-care-bed-block/) |
 | [**jobs-risk-radar**](https://github.com/LuciferDataEngineer/jobs-risk-radar) | Which Australian regions are seeing unemployment rise, and where should support be targeted? | Polars · dbt-duckdb · Dagster · Feast (DuckDB offline/SQLite online, point-in-time retrieval) · LightGBM with MLflow · Evidently · kind/Kubernetes · Terraform Docker provider | [Live dashboard](https://luciferdataengineer.github.io/jobs-risk-radar/) |
 | [**elective-wait-metrics**](https://github.com/LuciferDataEngineer/elective-wait-metrics) | Where are elective surgery patients missing recommended waits across Australia? | AIHW snapshots · Polars · dbt-duckdb · MetricFlow semantic layer saved queries · Dagster · Great Expectations Data Docs · static five-tab dashboard | [Live dashboard](https://luciferdataengineer.github.io/elective-wait-metrics/) |
