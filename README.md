@@ -22,6 +22,7 @@
 ![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?logo=apachespark&logoColor=white)
 ![Delta Lake](https://img.shields.io/badge/Delta_Lake-003366?logo=delta&logoColor=white)
 ![Debezium](https://img.shields.io/badge/Debezium-91D443?logoColor=black)
+![OpenLineage](https://img.shields.io/badge/OpenLineage-74A4BC?logoColor=white)
 ![Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?logo=apacheairflow&logoColor=white)
 ![Apache Flink](https://img.shields.io/badge/Apache_Flink-E6526F?logo=apacheflink&logoColor=white)
 ![Feast](https://img.shields.io/badge/Feast-FF6F00?logoColor=white)
@@ -50,6 +51,7 @@
 <!-- PROJECTS:START -->
 | Project | What it answers | Stack | Live |
 |---|---|---|---|
+| [**aged-care-bed-block**](https://github.com/LuciferDataEngineer/aged-care-bed-block) | CDC lakehouse tracking Australia's residential aged care place shortfall (40,939 places short of a 78-per-1,000 benchmark; only 794 places added last year vs ~10,600 needed). | Postgres 16 · Debezium Server · Redpanda · PySpark Structured Streaming · Delta Lake MERGE + SCD2 · OpenLineage · data contracts · DuckDB · Terraform · GitHub Actions | [Live dashboard](https://luciferdataengineer.github.io/aged-care-bed-block/) |
 | [**jobs-risk-radar**](https://github.com/LuciferDataEngineer/jobs-risk-radar) | Which Australian regions are seeing unemployment rise, and where should support be targeted? | Polars · dbt-duckdb · Dagster · Feast (DuckDB offline/SQLite online, point-in-time retrieval) · LightGBM with MLflow · Evidently · kind/Kubernetes · Terraform Docker provider | [Live dashboard](https://luciferdataengineer.github.io/jobs-risk-radar/) |
 | [**elective-wait-metrics**](https://github.com/LuciferDataEngineer/elective-wait-metrics) | Where are elective surgery patients missing recommended waits across Australia? | AIHW snapshots · Polars · dbt-duckdb · MetricFlow semantic layer saved queries · Dagster · Great Expectations Data Docs · static five-tab dashboard | [Live dashboard](https://luciferdataengineer.github.io/elective-wait-metrics/) |
 | [**grocery-shock-agent**](https://github.com/LuciferDataEngineer/grocery-shock-agent) | Which grocery lines are driving price pressure, and how could basket swaps change it? | Polars · dbt-duckdb · Dagster · Great Expectations · DuckDB VSS HNSW · 128-d feature hashing · deterministic ReAct tool-use agent · ECharts | [Live dashboard](https://luciferdataengineer.github.io/grocery-shock-agent/) |
