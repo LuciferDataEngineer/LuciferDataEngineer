@@ -9,6 +9,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=white)
+![SQLMesh](https://img.shields.io/badge/SQLMesh-805AD5)
 ![MetricFlow](https://img.shields.io/badge/MetricFlow-7C3AED)
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?logo=duckdb&logoColor=black)
 ![DuckDB VSS](https://img.shields.io/badge/DuckDB_VSS-FFF000?logo=duckdb&logoColor=black)
@@ -21,10 +22,13 @@
 ![Apache Iceberg](https://img.shields.io/badge/Apache_Iceberg-2B6CB0?logo=apache&logoColor=white)
 ![Apache Polaris](https://img.shields.io/badge/Apache_Polaris-0E6EB8?logo=apache&logoColor=white)
 ![MinIO](https://img.shields.io/badge/MinIO-C72E49?logo=minio&logoColor=white)
+![lakeFS](https://img.shields.io/badge/lakeFS-3C8C4E)
 ![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?logo=apachespark&logoColor=white)
 ![Delta Lake](https://img.shields.io/badge/Delta_Lake-003366?logo=delta&logoColor=white)
 ![Debezium](https://img.shields.io/badge/Debezium-91D443?logoColor=black)
 ![OpenLineage](https://img.shields.io/badge/OpenLineage-74A4BC?logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?logo=opentelemetry&logoColor=white)
+![Jaeger](https://img.shields.io/badge/Jaeger-60D0E4?logoColor=black)
 ![Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?logo=apacheairflow&logoColor=white)
 ![Apache Flink](https://img.shields.io/badge/Apache_Flink-E6526F?logo=apacheflink&logoColor=white)
 ![Feast](https://img.shields.io/badge/Feast-FF6F00?logoColor=white)
@@ -34,6 +38,7 @@
 ![Evidently](https://img.shields.io/badge/Evidently-ED0400?logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?logo=helm&logoColor=white)
+![Argo](https://img.shields.io/badge/Argo_Workflows-EF7B4D?logo=argo&logoColor=white)
 ![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?logo=opentofu&logoColor=black)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-336791?logo=postgresql&logoColor=white)
@@ -56,6 +61,7 @@
 <!-- PROJECTS:START -->
 | Project | What it answers | Stack | Live |
 |---|---|---|---|
+| [**living-cost-squeeze**](https://github.com/LuciferDataEngineer/living-cost-squeeze) | Who is losing Australia's cost-of-living race, living costs vs wages by household type, with a next-quarter forecast range | lakeFS on MinIO · SQLMesh + DuckDB · Argo Workflows on kind · OpenTelemetry + Jaeger · statsforecast · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/living-cost-squeeze/) |
 | [**road-toll-reversal**](https://github.com/LuciferDataEngineer/road-toll-reversal) | Where Australia's rising road toll is concentrated and where to focus summer enforcement | DuckDB · ODCS data contracts · Apache Polaris + Iceberg on MinIO · Airflow 3 · PyMC · ClickHouse · Helm/kind · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/road-toll-reversal/) |
 | [**home-battery-payback**](https://github.com/LuciferDataEngineer/home-battery-payback) | Where is Australia's home-battery rebate landing, and where does a battery pay back from real wholesale price swings? | PyFlink 2.1 SQL (event-time windows, watermarks) · Apache Iceberg (REST catalog + MinIO + Trino merge-on-read) · DuckDB marts · Dagster asset checks · OpenLineage · Pandera contracts · kind/Kubernetes Job · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/home-battery-payback/) |
 | [**aged-care-bed-block**](https://github.com/LuciferDataEngineer/aged-care-bed-block) | CDC lakehouse tracking Australia's residential aged care place shortfall (40,939 places short of a 78-per-1,000 benchmark; only 794 places added last year vs ~10,600 needed). | Postgres 16 · Debezium Server · Redpanda · PySpark Structured Streaming · Delta Lake MERGE + SCD2 · OpenLineage · data contracts · DuckDB · Terraform · GitHub Actions | [Live dashboard](https://luciferdataengineer.github.io/aged-care-bed-block/) |
