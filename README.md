@@ -24,6 +24,7 @@
 ![MinIO](https://img.shields.io/badge/MinIO-C72E49?logo=minio&logoColor=white)
 ![lakeFS](https://img.shields.io/badge/lakeFS-3C8C4E)
 ![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?logo=apachespark&logoColor=white)
+![Apache Sedona](https://img.shields.io/badge/Apache_Sedona-1B8A5A?logo=apache&logoColor=white)
 ![Delta Lake](https://img.shields.io/badge/Delta_Lake-003366?logo=delta&logoColor=white)
 ![Debezium](https://img.shields.io/badge/Debezium-91D443?logoColor=black)
 ![OpenLineage](https://img.shields.io/badge/OpenLineage-74A4BC?logoColor=white)
@@ -34,11 +35,15 @@
 ![Feast](https://img.shields.io/badge/Feast-FF6F00?logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)
 ![PyMC](https://img.shields.io/badge/PyMC-5B2C6F)
+![Ray](https://img.shields.io/badge/Ray-028CF0)
+![OR-Tools](https://img.shields.io/badge/OR--Tools-4285F4)
 ![LightGBM](https://img.shields.io/badge/LightGBM-1B9AD7?logoColor=white)
 ![Evidently](https://img.shields.io/badge/Evidently-ED0400?logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?logo=helm&logoColor=white)
+![OPA](https://img.shields.io/badge/OPA-0E2A3B?logo=openpolicyagent&logoColor=white)
 ![Argo](https://img.shields.io/badge/Argo_Workflows-EF7B4D?logo=argo&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?logo=argo&logoColor=white)
 ![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?logo=opentofu&logoColor=black)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-336791?logo=postgresql&logoColor=white)
@@ -61,6 +66,7 @@
 <!-- PROJECTS:START -->
 | Project | What it answers | Stack | Live |
 |---|---|---|---|
+| [**bushfire-fleet-planner**](https://github.com/LuciferDataEngineer/bushfire-fleet-planner) | Where to base six air tankers this El Niño summer to cover the most people and fire activity | Apache Sedona on PySpark · DuckDB spatial · Ray + KubeRay · OR-Tools · Argo CD on kind · OPA Conftest · Soda Core · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/bushfire-fleet-planner/) |
 | [**living-cost-squeeze**](https://github.com/LuciferDataEngineer/living-cost-squeeze) | Who is losing Australia's cost-of-living race, living costs vs wages by household type, with a next-quarter forecast range | lakeFS on MinIO · SQLMesh + DuckDB · Argo Workflows on kind · OpenTelemetry + Jaeger · statsforecast · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/living-cost-squeeze/) |
 | [**road-toll-reversal**](https://github.com/LuciferDataEngineer/road-toll-reversal) | Where Australia's rising road toll is concentrated and where to focus summer enforcement | DuckDB · ODCS data contracts · Apache Polaris + Iceberg on MinIO · Airflow 3 · PyMC · ClickHouse · Helm/kind · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/road-toll-reversal/) |
 | [**home-battery-payback**](https://github.com/LuciferDataEngineer/home-battery-payback) | Where is Australia's home-battery rebate landing, and where does a battery pay back from real wholesale price swings? | PyFlink 2.1 SQL (event-time windows, watermarks) · Apache Iceberg (REST catalog + MinIO + Trino merge-on-read) · DuckDB marts · Dagster asset checks · OpenLineage · Pandera contracts · kind/Kubernetes Job · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/home-battery-payback/) |
