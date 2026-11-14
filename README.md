@@ -14,6 +14,7 @@
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?logo=duckdb&logoColor=black)
 ![DuckDB VSS](https://img.shields.io/badge/DuckDB_VSS-FFF000?logo=duckdb&logoColor=black)
 ![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?logo=clickhouse&logoColor=black)
+![RisingWave](https://img.shields.io/badge/RisingWave-5D29E3)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![Dagster](https://img.shields.io/badge/Dagster-4F43DD?logo=dagster&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
@@ -31,6 +32,7 @@
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?logo=opentelemetry&logoColor=white)
 ![Jaeger](https://img.shields.io/badge/Jaeger-60D0E4?logoColor=black)
 ![Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?logo=apacheairflow&logoColor=white)
+![Temporal](https://img.shields.io/badge/Temporal-000000?logo=temporal&logoColor=white)
 ![Apache Flink](https://img.shields.io/badge/Apache_Flink-E6526F?logo=apacheflink&logoColor=white)
 ![Feast](https://img.shields.io/badge/Feast-FF6F00?logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)
@@ -40,6 +42,7 @@
 ![LightGBM](https://img.shields.io/badge/LightGBM-1B9AD7?logoColor=white)
 ![Evidently](https://img.shields.io/badge/Evidently-ED0400?logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+![KEDA](https://img.shields.io/badge/KEDA-2661FF)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?logo=helm&logoColor=white)
 ![OPA](https://img.shields.io/badge/OPA-0E2A3B?logo=openpolicyagent&logoColor=white)
 ![Argo](https://img.shields.io/badge/Argo_Workflows-EF7B4D?logo=argo&logoColor=white)
@@ -48,6 +51,7 @@
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-336791?logo=postgresql&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face_(sentence--transformers)-FFD21E?logo=huggingface&logoColor=black)
+![Chronos-Bolt](https://img.shields.io/badge/Chronos--Bolt-FF9900)
 ![ECharts](https://img.shields.io/badge/Apache_ECharts-AA344D?logo=apacheecharts&logoColor=white)
 ![Trino](https://img.shields.io/badge/Trino-DD00A1?logo=trino&logoColor=white)
 ![Great Expectations](https://img.shields.io/badge/Great_Expectations-FF6310?logoColor=white)
@@ -66,6 +70,7 @@
 <!-- PROJECTS:START -->
 | Project | What it answers | Stack | Live |
 |---|---|---|---|
+| [**dry-summer-water-watch**](https://github.com/LuciferDataEngineer/dry-summer-water-watch) | Which water supplies run low first in a dry summer, and how to close Perth's gap | Temporal · RisingWave · KEDA on kind · Chronos-Bolt · DuckDB · Polars · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/dry-summer-water-watch/) |
 | [**bushfire-fleet-planner**](https://github.com/LuciferDataEngineer/bushfire-fleet-planner) | Where to base six air tankers this El Niño summer to cover the most people and fire activity | Apache Sedona on PySpark · DuckDB spatial · Ray + KubeRay · OR-Tools · Argo CD on kind · OPA Conftest · Soda Core · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/bushfire-fleet-planner/) |
 | [**living-cost-squeeze**](https://github.com/LuciferDataEngineer/living-cost-squeeze) | Who is losing Australia's cost-of-living race, living costs vs wages by household type, with a next-quarter forecast range | lakeFS on MinIO · SQLMesh + DuckDB · Argo Workflows on kind · OpenTelemetry + Jaeger · statsforecast · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/living-cost-squeeze/) |
 | [**road-toll-reversal**](https://github.com/LuciferDataEngineer/road-toll-reversal) | Where Australia's rising road toll is concentrated and where to focus summer enforcement | DuckDB · ODCS data contracts · Apache Polaris + Iceberg on MinIO · Airflow 3 · PyMC · ClickHouse · Helm/kind · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/road-toll-reversal/) |
