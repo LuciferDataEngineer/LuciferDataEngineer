@@ -9,18 +9,22 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=white)
+![dlt](https://img.shields.io/badge/dlt-00C7B7)
 ![SQLMesh](https://img.shields.io/badge/SQLMesh-805AD5)
 ![MetricFlow](https://img.shields.io/badge/MetricFlow-7C3AED)
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?logo=duckdb&logoColor=black)
 ![DuckDB VSS](https://img.shields.io/badge/DuckDB_VSS-FFF000?logo=duckdb&logoColor=black)
 ![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?logo=clickhouse&logoColor=black)
 ![RisingWave](https://img.shields.io/badge/RisingWave-5D29E3)
+![Feldera](https://img.shields.io/badge/Feldera-E85D04)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![Dagster](https://img.shields.io/badge/Dagster-4F43DD?logo=dagster&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
 ![Polars](https://img.shields.io/badge/Polars-CD792C?logo=polars&logoColor=white)
+![Ibis](https://img.shields.io/badge/Ibis-003DA5)
 ![Kafka](https://img.shields.io/badge/Kafka%20%2F%20Redpanda-231F20?logo=apachekafka&logoColor=white)
 ![Apache Iceberg](https://img.shields.io/badge/Apache_Iceberg-2B6CB0?logo=apache&logoColor=white)
+![Nessie](https://img.shields.io/badge/Nessie-21409A)
 ![Apache Polaris](https://img.shields.io/badge/Apache_Polaris-0E6EB8?logo=apache&logoColor=white)
 ![MinIO](https://img.shields.io/badge/MinIO-C72E49?logo=minio&logoColor=white)
 ![lakeFS](https://img.shields.io/badge/lakeFS-3C8C4E)
@@ -37,6 +41,7 @@
 ![Feast](https://img.shields.io/badge/Feast-FF6F00?logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)
 ![PyMC](https://img.shields.io/badge/PyMC-5B2C6F)
+![DoWhy](https://img.shields.io/badge/DoWhy-5C2D91)
 ![Ray](https://img.shields.io/badge/Ray-028CF0)
 ![OR-Tools](https://img.shields.io/badge/OR--Tools-4285F4)
 ![LightGBM](https://img.shields.io/badge/LightGBM-1B9AD7?logoColor=white)
@@ -70,6 +75,7 @@
 <!-- PROJECTS:START -->
 | Project | What it answers | Stack | Live |
 |---|---|---|---|
+| [**gas-reservation-gap**](https://github.com/LuciferDataEngineer/gas-reservation-gap) | Would reserving 20% of east-coast LNG exports close the southern winter gas gap? | dlt · Ibis · Apache Iceberg + Nessie · RustFS · Feldera · DoWhy + EconML · DuckDB · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/gas-reservation-gap/) |
 | [**dry-summer-water-watch**](https://github.com/LuciferDataEngineer/dry-summer-water-watch) | Which water supplies run low first in a dry summer, and how to close Perth's gap | Temporal · RisingWave · KEDA on kind · Chronos-Bolt · DuckDB · Polars · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/dry-summer-water-watch/) |
 | [**bushfire-fleet-planner**](https://github.com/LuciferDataEngineer/bushfire-fleet-planner) | Where to base six air tankers this El Niño summer to cover the most people and fire activity | Apache Sedona on PySpark · DuckDB spatial · Ray + KubeRay · OR-Tools · Argo CD on kind · OPA Conftest · Soda Core · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/bushfire-fleet-planner/) |
 | [**living-cost-squeeze**](https://github.com/LuciferDataEngineer/living-cost-squeeze) | Who is losing Australia's cost-of-living race, living costs vs wages by household type, with a next-quarter forecast range | lakeFS on MinIO · SQLMesh + DuckDB · Argo Workflows on kind · OpenTelemetry + Jaeger · statsforecast · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/living-cost-squeeze/) |
