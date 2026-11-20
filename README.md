@@ -14,6 +14,7 @@
 ![MetricFlow](https://img.shields.io/badge/MetricFlow-7C3AED)
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?logo=duckdb&logoColor=black)
 ![DuckDB VSS](https://img.shields.io/badge/DuckDB_VSS-FFF000?logo=duckdb&logoColor=black)
+![DuckLake](https://img.shields.io/badge/DuckLake-1D9E75?logo=duckdb&logoColor=white)
 ![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?logo=clickhouse&logoColor=black)
 ![RisingWave](https://img.shields.io/badge/RisingWave-5D29E3)
 ![Feldera](https://img.shields.io/badge/Feldera-E85D04)
@@ -41,6 +42,7 @@
 ![Feast](https://img.shields.io/badge/Feast-FF6F00?logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)
 ![PyMC](https://img.shields.io/badge/PyMC-5B2C6F)
+![CausalPy](https://img.shields.io/badge/CausalPy-1B6B93)
 ![DoWhy](https://img.shields.io/badge/DoWhy-5C2D91)
 ![Ray](https://img.shields.io/badge/Ray-028CF0)
 ![OR-Tools](https://img.shields.io/badge/OR--Tools-4285F4)
@@ -61,6 +63,7 @@
 ![Trino](https://img.shields.io/badge/Trino-DD00A1?logo=trino&logoColor=white)
 ![Great Expectations](https://img.shields.io/badge/Great_Expectations-FF6310?logoColor=white)
 ![Pandera](https://img.shields.io/badge/Pandera-82B428?logoColor=black)
+![Apache Arrow Flight](https://img.shields.io/badge/Apache_Arrow_Flight-00B0E8?logo=apache&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)
@@ -75,6 +78,7 @@
 <!-- PROJECTS:START -->
 | Project | What it answers | Stack | Live |
 |---|---|---|---|
+| [**china-trade-thaw**](https://github.com/LuciferDataEngineer/china-trade-thaw) | How exposed are Australia's exports to China after the 2020-23 trade blocks, and where to diversify? | DuckLake · CausalPy + PyMC · Pandera · Apache Arrow Flight · DuckDB · Postgres in Docker · RustFS · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/china-trade-thaw/) |
 | [**gas-reservation-gap**](https://github.com/LuciferDataEngineer/gas-reservation-gap) | Would reserving 20% of east-coast LNG exports close the southern winter gas gap? | dlt · Ibis · Apache Iceberg + Nessie · RustFS · Feldera · DoWhy + EconML · DuckDB · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/gas-reservation-gap/) |
 | [**dry-summer-water-watch**](https://github.com/LuciferDataEngineer/dry-summer-water-watch) | Which water supplies run low first in a dry summer, and how to close Perth's gap | Temporal · RisingWave · KEDA on kind · Chronos-Bolt · DuckDB · Polars · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/dry-summer-water-watch/) |
 | [**bushfire-fleet-planner**](https://github.com/LuciferDataEngineer/bushfire-fleet-planner) | Where to base six air tankers this El Niño summer to cover the most people and fire activity | Apache Sedona on PySpark · DuckDB spatial · Ray + KubeRay · OR-Tools · Argo CD on kind · OPA Conftest · Soda Core · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/bushfire-fleet-planner/) |
