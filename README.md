@@ -15,11 +15,13 @@
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?logo=duckdb&logoColor=black)
 ![DuckDB VSS](https://img.shields.io/badge/DuckDB_VSS-FFF000?logo=duckdb&logoColor=black)
 ![DuckLake](https://img.shields.io/badge/DuckLake-1D9E75?logo=duckdb&logoColor=white)
+![Apache DataFusion](https://img.shields.io/badge/Apache_DataFusion-F17C37?logo=apache&logoColor=white)
 ![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?logo=clickhouse&logoColor=black)
 ![RisingWave](https://img.shields.io/badge/RisingWave-5D29E3)
 ![Feldera](https://img.shields.io/badge/Feldera-E85D04)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![Dagster](https://img.shields.io/badge/Dagster-4F43DD?logo=dagster&logoColor=white)
+![Hamilton](https://img.shields.io/badge/Hamilton-0E7C7B)
 ![Pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
 ![Polars](https://img.shields.io/badge/Polars-CD792C?logo=polars&logoColor=white)
 ![Ibis](https://img.shields.io/badge/Ibis-003DA5)
@@ -38,6 +40,7 @@
 ![Jaeger](https://img.shields.io/badge/Jaeger-60D0E4?logoColor=black)
 ![Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?logo=apacheairflow&logoColor=white)
 ![Temporal](https://img.shields.io/badge/Temporal-000000?logo=temporal&logoColor=white)
+![Kestra](https://img.shields.io/badge/Kestra-7C3AED)
 ![Apache Flink](https://img.shields.io/badge/Apache_Flink-E6526F?logo=apacheflink&logoColor=white)
 ![Feast](https://img.shields.io/badge/Feast-FF6F00?logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)
@@ -78,6 +81,7 @@
 <!-- PROJECTS:START -->
 | Project | What it answers | Stack | Live |
 |---|---|---|---|
+| [**recession-watch-au**](https://github.com/LuciferDataEngineer/recession-watch-au) | How close Australia is to recession: GDP nowcast, recession odds tested on past releases, and which states and industries feel it first | Kestra · Apache DataFusion · Hamilton · DuckDB · statsmodels · Pandera · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/recession-watch-au/) |
 | [**china-trade-thaw**](https://github.com/LuciferDataEngineer/china-trade-thaw) | How exposed are Australia's exports to China after the 2020-23 trade blocks, and where to diversify? | DuckLake · CausalPy + PyMC · Pandera · Apache Arrow Flight · DuckDB · Postgres in Docker · RustFS · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/china-trade-thaw/) |
 | [**gas-reservation-gap**](https://github.com/LuciferDataEngineer/gas-reservation-gap) | Would reserving 20% of east-coast LNG exports close the southern winter gas gap? | dlt · Ibis · Apache Iceberg + Nessie · RustFS · Feldera · DoWhy + EconML · DuckDB · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/gas-reservation-gap/) |
 | [**dry-summer-water-watch**](https://github.com/LuciferDataEngineer/dry-summer-water-watch) | Which water supplies run low first in a dry summer, and how to close Perth's gap | Temporal · RisingWave · KEDA on kind · Chronos-Bolt · DuckDB · Polars · GitHub Pages | [Live dashboard](https://luciferdataengineer.github.io/dry-summer-water-watch/) |
